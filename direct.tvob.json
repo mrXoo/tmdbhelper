@@ -1,0 +1,20 @@
+{
+    "name"              : "TV Only Better",
+    "plugin"            : "plugin.video.tvobv1",
+	"is_resolvable"		: "true",
+    "priority" 			: 500,
+    "play_movie"        : [
+                        "plugin://plugin.video.tvobv1/",
+						{"title": ".*Search Movies"},
+						{"keyboard": "{title}"},
+						{"title": "(?i).*{title}"}
+                        ],
+    "play_episode"    : [
+                        "plugin://plugin.video.tvobv1/",
+						{"title": ".*Search TV Shows"},
+						{"keyboard": "{showname}"},
+                        {"title": "{showname}"},
+						{"title": "Season.*{season}"},
+						{"title": "Episode.*{episode}"}
+                        ]
+}
