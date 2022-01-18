@@ -1,5 +1,5 @@
 {
-  "name": "4K",
+  "name": "4K Autoplay",
   "plugin": "plugin.video.4k",
   "priority": 500,
   "is_resolvable" : "true",
