@@ -3,6 +3,6 @@
     "name": "Fen", 
     "plugin": "plugin.video.fen", 
     "is_resolvable": "true", 
-    "priority": 500, 
+    "priority": 300, 
     "play_movie": "plugin://plugin.video.fen/?mode=play_media&vid_type=movie&library=True&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}"
 }
