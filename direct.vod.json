@@ -1,1 +1,0 @@
-{    "name"              : "VOD *** FREE ***",    "plugin"            : "plugin.video.vod",	"is_resolvable"		: "true",    "priority" 			: 201,    "play_movie"        : [                        "special://profile/playlists/video/movies.m3u",						{"label": "(?i).*HD.:.{title}.*{year}|(?i){title}.*{year}|(?i).*SD.:.{title}.*{year}"}                        ]} 
