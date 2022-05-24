@@ -1,8 +1,8 @@
 {
-    "play_episode": "plugin://plugin.video.ezra/?mode=play_media&vid_type=episode&library=True&query={showname}&year={year}&season={season}&episode={episode}&ep_name={title}&tmdb_id={tmdb}&premiered={firstaired}", 
     "name": "Ezra (NEW)", 
     "plugin": "plugin.video.ezra", 
     "is_resolvable": "true", 
     "priority": 300, 
-    "play_movie": "plugin://plugin.video.ezra/?mode=play_media&vid_type=movie&library=True&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}"
+    "play_movie" : "plugin://plugin.video.ezra/?mode=play_media&media_type=movie&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}",
+    "play_episode" : "plugin://plugin.video.ezra/?mode=play_media&media_type=episode&query={showname}&year={year}&season={season}&episode={episode}&ep_name={title}&tmdb_id={tmdb}&premiered={firstaired}"
 }
