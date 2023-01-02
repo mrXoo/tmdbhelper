@@ -1,5 +1,5 @@
 {
-    "name": "Ezra (NEW)", 
+    "name": "Ezra", 
     "plugin": "plugin.video.ezra", 
     "is_resolvable": "true", 
     "priority": 100, 
